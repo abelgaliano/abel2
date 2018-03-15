@@ -9,7 +9,6 @@ public class PersonaFiscal {
 	TipoImpuesto impuesto;
 
 	public int calcularImpuesto() {
-
 		return -1;
 	}
 

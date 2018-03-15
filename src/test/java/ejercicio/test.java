@@ -6,7 +6,7 @@ import org.junit.Test;
 public class test {
 
 	@Test
-	public test() {
+	public void test1() {
 		Assert.assertEquals(3, 4);
 	}
 

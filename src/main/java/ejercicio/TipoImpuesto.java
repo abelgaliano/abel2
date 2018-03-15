@@ -4,7 +4,13 @@ public class TipoImpuesto {
 
 	int porcentaje;
 	int porcentaje30;
-	String nombre;
+	char nombre;
+
+	public TipoImpuesto(int por, int por30, char nom) {
+		this.porcentaje = por;
+		this.porcentaje30 = por30;
+		this.nombre = nom;
+	}
 
 	public int getPorcentaje() {
 		return this.porcentaje;
@@ -22,11 +28,11 @@ public class TipoImpuesto {
 		this.porcentaje30 = _porcentaje30;
 	}
 
-	public String getNombre() {
+	public char getNombre() {
 		return this.nombre;
 	}
 
-	public void setNombre(String _nombre) {
+	public void setNombre(char _nombre) {
 		this.nombre = _nombre;
 	}
 }
